@@ -37,12 +37,18 @@ export default function Header() {
                   className="relative right-14 max-950:mr-2  max-800:hidden"
                 />
               </div>
-             
-              <div className="flex  max-750:p-4 text-center">
+
+              <div className="flex items-center  max-750:p-4 text-center">
                 <p className="font-bold text-base px-2 max-400:text-sm">
                   Admission is Open, Grab your seat now
                 </p>
-                <Image src={next} alt="next" width={22} height={22} className="object-contain max-400:hidden "  />
+                <Image
+                  src={next}
+                  alt="next"
+                  width={22}
+                  height={22}
+                  className="object-contain max-400:hidden "
+                />
               </div>
 
               <div className="">
