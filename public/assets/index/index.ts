@@ -10,7 +10,33 @@ import student from "../svgs/Icon.svg";
 import crown from "../svgs/crown.fill.svg";
 import faceMask from "../svgs/facemask.fill.svg";
 import flag from "../svgs/Icon (1).svg";
-import ball from "../svgs/Icon (2).svg"
-import people from "../svgs/Union.svg"
-
-export { bg, bg1, abstract, abstract1, next, logo, menu, hero,student,crown,faceMask,flag,ball,people };
+import ball from "../svgs/Icon (2).svg";
+import people from "../svgs/Union.svg";
+import person1 from "../svgs/Profile Container.svg"
+import person2 from "../svgs/Profile Container (1).svg"
+import person3 from "../svgs/Profile Container (2).svg"
+import star from "../svgs/Shape.svg"
+import prevBtn from "../svgs/Button.svg"
+import nextBtn from "../svgs/Button (1).svg"
+export {
+  bg,
+  bg1,
+  abstract,
+  abstract1,
+  next,
+  logo,
+  menu,
+  hero,
+  student,
+  crown,
+  faceMask,
+  flag,
+  ball,
+  people,
+  person1,
+  person2,
+  person3,
+  star,
+  prevBtn,
+  nextBtn
+};

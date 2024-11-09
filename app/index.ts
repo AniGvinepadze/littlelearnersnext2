@@ -5,6 +5,9 @@ import {
   flag,
   ball,
   people,
+  person1,
+  person2,
+  person3
 } from "../public/assets/index/index";
 
 export type NavLinks = [
@@ -105,3 +108,42 @@ export const benefits = [
     desc: "We foster a strong parent-school partnership to ensure seamless communication and collaboration.",
   },
 ];
+
+export const rankings = [
+  {
+    id:1,
+    img:person1,
+    name:"Jennifer B",
+    desc:"Little Learners Academy has been a second home for my child. The caring staff and engaging programs have made her excited to go to school every day!"
+  },
+  {
+    id:2,
+    img:person2,
+    name:"David K",
+    desc:"Choosing Little Learners Academy for my daughter was the best decision. She has thrived in their nurturing and stimulating environment."
+  },
+  {
+    id:3,
+    img:person3,
+    name:"Emily L",
+    desc:"My son's social and academic growth has been remarkable since joining Little Learners Academy. I am grateful for the supportive and dedicated teachers."
+  },
+  {
+    id:4,
+    img:person2,
+    name:"Bony J",
+    desc:"Little Learners Academy has been a second home for my child. The caring staff and engaging programs have made her excited to go to school every day!"
+  },
+  {
+    id:5,
+    img:person1,
+    name:"Tom F",
+    desc:"My son's social and academic growth has been remarkable since joining Little Learners Academy. I am grateful for the supportive and dedicated teachers."
+  },
+  {
+    id:6,
+    img:person3,
+    name:"Kylie F",
+    desc:"Choosing Little Learners Academy for my daughter was the best decision. She has thrived in their nurturing and stimulating environment.."
+  }
+]
