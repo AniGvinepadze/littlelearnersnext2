@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 
+
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,6 +9,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
+     
       screens: {
         "max-1100": { max: "1100px" },
         "max-1050": { max: "1050px" },
