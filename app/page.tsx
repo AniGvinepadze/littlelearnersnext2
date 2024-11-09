@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "./global/Header";
 import Hero from "./home/Hero";
+import OurBenefits from "./home/OurBenefits";
 
 export default function Home() {
   return (
@@ -8,7 +9,9 @@ export default function Home() {
       <div className="max-w-[1340px] m-auto pt-7 px-3">
         <Header />
         <div className="px-3 py-10">
-        <Hero />
+          <Hero />
+
+          <OurBenefits />
         </div>
       </div>
     </div>
