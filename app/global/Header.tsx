@@ -11,8 +11,15 @@ import {
 import Image from "next/image";
 import { navLinks } from "..";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Header() {
+  const [active, setActive] = useState(false);
+
+  const handleActive = () => {
+    setActive((prevActive) => !prevActive);
+  };
+
   return (
     <div>
       <div className="w-full">
@@ -83,23 +90,43 @@ export default function Header() {
 
           <div className="flex max-1050:hidden">
             {navLinks.map((link, index) => (
-              <Link   key={link.id} href={link.href}>
-              <ul
-              
-                className={` w-[140px] border-text border-x flex justify-center py-4  cursor-pointer ${
-                  index === 5 ? "bg-[#FFAE80]" : ""
-                } hover:bg-secondary `}
-              >
-                <li className="font-semibold text-base ">{link.name}</li>
-              </ul>
+              <Link key={link.id} href={link.href}>
+                <ul
+                  className={` w-[140px] border-text border-x flex justify-center py-4  cursor-pointer ${
+                    index === 5 ? "bg-[#FFAE80]" : ""
+                  } hover:bg-secondary `}
+                >
+                  <li className="font-semibold text-base ">{link.name}</li>
+                </ul>
               </Link>
             ))}
           </div>
           <div className="hidden w-[88px] max-1050:flex">
-            <button className=" w-full border-text border-l-2 flex justify-center items-center bg-secondary cursor-pointer hover:bg-[#FFAE80]">
+            <button
+              className=" w-full border-text border-l-2 flex justify-center items-center bg-secondary cursor-pointer hover:bg-[#FFAE80]"
+              onClick={handleActive}
+            >
               <Image src={menu} alt="menuBtn" width={28} height={28} />
             </button>
           </div>
+        </div>
+
+        <div className="justify-end hidden max-1050:flex">
+          {active && (
+            <div className=" grid grid-cols-3 gap-4 items-center bg-white border-2 border-text w-full rounded-xl p-8 max-700:p-5 max-500:grid-cols-2">
+              {navLinks.map((link, index) => (
+                <Link key={link.id} href={link.href} >
+                  <ul
+                    className={`my-3 rounded p-3 flex justify-center items center border-2 border-text  ${
+                      index === 5 ? "bg-[#FFAE80]" : ""
+                    } hover:bg-secondary transition ease-in-out `}
+                  >
+                    <li className="font-semibold text-lg ">{link.name}</li>
+                  </ul>
+                </Link>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>

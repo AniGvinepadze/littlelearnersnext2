@@ -2,6 +2,7 @@
 import { logo } from "@/public/assets/index";
 import Image from "next/image";
 import { address, links1, links2, links3, links4, soccial } from "..";
+import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="max-w-[1340px] w-full m-auto rounded-xl mt-16 border-t-2 border-l-2 border-b-8 border-r-8 border-text p-16  bg-white max-900:p-12 max-600:p-7">
@@ -22,57 +23,62 @@ export default function Footer() {
           <div className="grid grid-cols-4 max-550:grid-cols-2">
             <div className="pl-5 max-1100:pl-0">
               {links1.map((link, index) => (
-                <div
-                  key={link.id}
-                  className="max-w-[120px] w-full pl-6 max-700:pl-0 "
-                >
-                  <p
-                    className={`text-base font-medium' pt-5 ${
-                      link.index === 0 ? "font-bold" : ""
-                    } max-700:pt-3`}
-                  >
-                    {link.title}
-                  </p>
-                </div>
+                <Link href="/" key={link.id}>
+                  <div className="max-w-[120px] w-full pl-6 max-700:pl-0 ">
+                    <p
+                      className={`text-base font-medium' pt-5 ${
+                        link.index === 0 ? "font-bold" : ""
+                      } max-700:pt-3`}
+                    >
+                      {link.title}
+                    </p>
+                  </div>
+                </Link>
               ))}
             </div>
             <div className="pl-5">
               {links2.map((link, index) => (
-                <div key={link.id} className="max-w-[120px] w-full ">
-                  <p
-                    className={`text-base font-medium' pt-5 ${
-                      link.index === 0 ? "font-bold" : ""
-                    } max-700:pt-3`}
-                  >
-                    {link.title}
-                  </p>
-                </div>
+                <Link href="/about-us" key={link.id}>
+                  <div className="max-w-[120px] w-full ">
+                    <p
+                      className={`text-base font-medium' pt-5 ${
+                        link.index === 0 ? "font-bold" : ""
+                      } max-700:pt-3`}
+                    >
+                      {link.title}
+                    </p>
+                  </div>
+                </Link>
               ))}
             </div>
             <div className=" pl-6 max-500:my-4 max-550:pl-0">
               {links3.map((link, index) => (
-                <div key={link.id} className="max-w-[130px] w-full ">
-                  <p
-                    className={`text-base font-medium' pt-5  ${
-                      link.index === 0 ? "font-bold" : ""
-                    } max-700:pt-3`}
-                  >
-                    {link.title}
-                  </p>
-                </div>
+                <Link href="/academics" key={link.id}>
+                  <div className="max-w-[130px] w-full ">
+                    <p
+                      className={`text-base font-medium' pt-5  ${
+                        link.index === 0 ? "font-bold" : ""
+                      } max-700:pt-3`}
+                    >
+                      {link.title}
+                    </p>
+                  </div>
+                </Link>
               ))}
             </div>
             <div className=" pl-5 max-550:mt-6 ">
               {links4.map((link, index) => (
-                <div key={link.id} className="max-w-[120px] w-full">
-                  <p
-                    className={`text-base font-medium' pt-5 ${
-                      link.index === 0 ? "font-bold" : ""
-                    } max-700:pt-3 `}
-                  >
-                    {link.title}
-                  </p>
-                </div>
+                <Link href="/contact" key={link.id}>
+                  <div key={link.id} className="max-w-[120px] w-full">
+                    <p
+                      className={`text-base font-medium' pt-5 ${
+                        link.index === 0 ? "font-bold" : ""
+                      } max-700:pt-3 `}
+                    >
+                      {link.title}
+                    </p>
+                  </div>
+                </Link>
               ))}
             </div>
           </div>
@@ -81,7 +87,9 @@ export default function Footer() {
           {address.map((soc) => (
             <div key={soc.id} className="flex pt-4">
               <Image src={soc.img} alt="soc" width={40} height={40} />
-              <p className="font-medium text-xl px-1 pt-1 max-400:text-lg">{soc.title}</p>
+              <p className="font-medium text-xl px-1 pt-1 max-400:text-lg">
+                {soc.title}
+              </p>
             </div>
           ))}
         </div>
