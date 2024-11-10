@@ -4,7 +4,7 @@ import Image from "next/image";
 import { address, links1, links2, links3, links4, soccial } from "..";
 export default function Footer() {
   return (
-    <footer className="max-w-[1340px] w-full m-auto rounded-xl mt-16 border-t-2 border-l-2 border-b-8 border-r-8 border-text p-16  bg-white max-600:p-7">
+    <footer className="max-w-[1340px] w-full m-auto rounded-xl mt-16 border-t-2 border-l-2 border-b-8 border-r-8 border-text p-16  bg-white max-900:p-12 max-600:p-7">
       <main>
         <div className="flex justify-between max-1100:flex-col ">
           <div className="max-w-[430px] w-full ">
