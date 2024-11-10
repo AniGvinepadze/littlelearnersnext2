@@ -7,7 +7,7 @@ import {
   people,
   person1,
   person2,
-  person3
+  person3,
 } from "../public/assets/index/index";
 
 export type NavLinks = [
@@ -93,7 +93,7 @@ export const benefits = [
     id: 4,
     img: flag,
     title: "Play-Based Learning",
-    desc:"We believe in the power of play to foster creativity, problem-solving skills, and imagination."
+    desc: "We believe in the power of play to foster creativity, problem-solving skills, and imagination.",
   },
   {
     id: 5,
@@ -111,39 +111,74 @@ export const benefits = [
 
 export const rankings = [
   {
-    id:1,
-    img:person1,
-    name:"Jennifer B",
-    desc:"Little Learners Academy has been a second home for my child. The caring staff and engaging programs have made her excited to go to school every day!"
+    id: 1,
+    img: person1,
+    name: "Jennifer B",
+    desc: "Little Learners Academy has been a second home for my child. The caring staff and engaging programs have made her excited to go to school every day!",
   },
   {
-    id:2,
-    img:person2,
-    name:"David K",
-    desc:"Choosing Little Learners Academy for my daughter was the best decision. She has thrived in their nurturing and stimulating environment."
+    id: 2,
+    img: person2,
+    name: "David K",
+    desc: "Choosing Little Learners Academy for my daughter was the best decision. She has thrived in their nurturing and stimulating environment.",
   },
   {
-    id:3,
-    img:person3,
-    name:"Emily L",
-    desc:"My son's social and academic growth has been remarkable since joining Little Learners Academy. I am grateful for the supportive and dedicated teachers."
+    id: 3,
+    img: person3,
+    name: "Emily L",
+    desc: "My son's social and academic growth has been remarkable since joining Little Learners Academy. I am grateful for the supportive and dedicated teachers.",
   },
   {
-    id:4,
-    img:person2,
-    name:"Bony J",
-    desc:"Little Learners Academy has been a second home for my child. The caring staff and engaging programs have made her excited to go to school every day!"
+    id: 4,
+    img: person2,
+    name: "Bony J",
+    desc: "Little Learners Academy has been a second home for my child. The caring staff and engaging programs have made her excited to go to school every day!",
   },
   {
-    id:5,
-    img:person1,
-    name:"Tom F",
-    desc:"My son's social and academic growth has been remarkable since joining Little Learners Academy. I am grateful for the supportive and dedicated teachers."
+    id: 5,
+    img: person1,
+    name: "Tom F",
+    desc: "My son's social and academic growth has been remarkable since joining Little Learners Academy. I am grateful for the supportive and dedicated teachers.",
   },
   {
-    id:6,
-    img:person3,
-    name:"Kylie F",
-    desc:"Choosing Little Learners Academy for my daughter was the best decision. She has thrived in their nurturing and stimulating environment.."
-  }
-]
+    id: 6,
+    img: person3,
+    name: "Kylie F",
+    desc: "Choosing Little Learners Academy for my daughter was the best decision. She has thrived in their nurturing and stimulating environment..",
+  },
+];
+
+export const questions = [
+  {
+    id: 1,
+    question: "What are the school hours at Little Learners Academy?",
+  },
+  {
+    id: 2,
+    question: "Is there a uniform policy for students?",
+  },
+  {
+    id: 3,
+    question: "What extracurricular activities are available for students?",
+  },
+  {
+    id: 4,
+    question: "What is the teacher-to-student ratio at Little Learners Academy?",
+  },
+  {
+    id: 5,
+    question: "What extracurricular activities are available for students?",
+  },
+  {
+    id: 6,
+    question: "How do you handle food allergies and dietary restrictions?",
+  },
+  {
+    id: 7,
+    question: "What is the teacher-to-student ratio at Little Learners Academy?",
+  },
+  {
+    id: 8,
+    question: "How do I apply for admission to Little Learners Academy?",
+  },
+];

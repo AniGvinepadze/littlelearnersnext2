@@ -18,6 +18,8 @@ import person3 from "../svgs/Profile Container (2).svg"
 import star from "../svgs/Shape.svg"
 import prevBtn from "../svgs/Button.svg"
 import nextBtn from "../svgs/Button (1).svg"
+import plus from "../svgs/Icon (3).svg"
+import minus from "../svgs/Icon (4).svg"
 export {
   bg,
   bg1,
@@ -38,5 +40,7 @@ export {
   person3,
   star,
   prevBtn,
-  nextBtn
+  nextBtn,
+  plus,
+  minus
 };
