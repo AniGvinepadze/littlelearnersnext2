@@ -1,3 +1,4 @@
+import { title } from "process";
 import {
   student,
   crown,
@@ -163,7 +164,8 @@ export const questions = [
   },
   {
     id: 4,
-    question: "What is the teacher-to-student ratio at Little Learners Academy?",
+    question:
+      "What is the teacher-to-student ratio at Little Learners Academy?",
   },
   {
     id: 5,
@@ -175,10 +177,33 @@ export const questions = [
   },
   {
     id: 7,
-    question: "What is the teacher-to-student ratio at Little Learners Academy?",
+    question:
+      "What is the teacher-to-student ratio at Little Learners Academy?",
   },
   {
     id: 8,
     question: "How do I apply for admission to Little Learners Academy?",
+  },
+];
+export const navigates = [
+  {
+    id: 1,
+    title: "Abot Us",
+    desc: "Discover our Mission, Values, and our unwavering commitment to providing the best learning experience for your child. Learn about our passionate educators and our engaging approach to early education.",
+  },
+  {
+    id: 2,
+    title: "Academics",
+    desc: "Delve into our comprehensive academic programs designed to stimulate young minds, foster creativity, and encourage a love for learning. Explore our well-rounded curriculum that nurtures both intellectual and social development.",
+  },
+  {
+    id: 3,
+    title: "Student Life",
+    desc: "Peek into the vibrant and enriching world of Student Life at Little Learners Academy. Discover the array of extracurricular activities, arts and crafts, sports, and social events that make our school experience truly memorable.",
+  },
+  {
+    id: 4,
+    title: "Admissions",
+    desc: "Learn about our Enrollment Process and how to secure your child's place at Little Learners Academy. Find information about our admission requirements, application deadlines, and available spaces.",
   },
 ];

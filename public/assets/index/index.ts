@@ -20,6 +20,7 @@ import prevBtn from "../svgs/Button.svg"
 import nextBtn from "../svgs/Button (1).svg"
 import plus from "../svgs/Icon (3).svg"
 import minus from "../svgs/Icon (4).svg"
+import img from "../svgs/Container.svg"
 export {
   bg,
   bg1,
@@ -42,5 +43,6 @@ export {
   prevBtn,
   nextBtn,
   plus,
-  minus
+  minus,
+  img
 };

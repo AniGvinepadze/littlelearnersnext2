@@ -4,6 +4,7 @@ import Hero from "./home/Hero";
 import OurBenefits from "./home/OurBenefits";
 import OurTestumonials from "./home/OurTestumonials";
 import FrequentlyAskedQuestions from "./home/FrequentlyAskedQuestions"
+import Navigate from "./home/Navigate"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
           <OurBenefits />
           <OurTestumonials />
           <FrequentlyAskedQuestions/>
+          <Navigate />
         </div>
 
     </div>
