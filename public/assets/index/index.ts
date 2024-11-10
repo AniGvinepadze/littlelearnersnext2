@@ -27,6 +27,7 @@ import location from "../svgs/Icon (6).svg"
 import fb from "../svgs/Button (2).svg"
 import tw from "../svgs/Button (3).svg"
 import inpng  from "../svgs/Button (4).svg"
+import abstract2 from "../svgs/Abstract Design.svg"
 export {
   bg,
   bg1,
@@ -57,4 +58,5 @@ export {
   fb,
   tw,
   inpng,
+  abstract2
 };

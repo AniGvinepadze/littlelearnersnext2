@@ -1,7 +1,7 @@
 "use client";
 
-import { img, next } from "../../public/assets/index";
-import { navigates } from "../index";
+import { img, next } from "../../../public/assets/index/index";
+import { navigates } from "../../index";
 import Image from "next/image";
 
 export default function Navigate() {
@@ -29,7 +29,7 @@ export default function Navigate() {
         {navigates.map((navigate) => (
           <div
             key={navigate.id}
-            className="border-t-2 border-l-2 border-b-8 border-r-8 border-text bg-white p-8 rounded-[10px] max-w-[620px] w-full mt-3" 
+            className="border-t-2 border-l-2 border-b-8 border-r-8 border-text bg-white p-8 rounded-[10px] max-w-[620px] w-full mt-3"
           >
             <h3 className="font-bold text-[34px] ">{navigate.title}</h3>
             <Image

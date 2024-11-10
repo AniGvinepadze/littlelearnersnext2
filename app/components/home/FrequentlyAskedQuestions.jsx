@@ -1,7 +1,7 @@
 "use client";
 
 import { plus, minus } from "@/public/assets/index";
-import { questions } from "..";
+import { questions } from "../..";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -38,7 +38,6 @@ export default function FrequentlyAskedQuestions() {
             className={`max-w-[620px] w-full rounded-[10px] border-2 border-text p-5  bg-primary  ${
               toggle === question.id ? "bg-white" : ""
             } `}
-
           >
             <div className="flex justify-between items-center ">
               <p className="font-bold text-lg">

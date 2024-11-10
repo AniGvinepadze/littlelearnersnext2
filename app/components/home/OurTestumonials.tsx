@@ -3,25 +3,25 @@
 import { A11y, Navigation, Pagination, Scrollbar } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
-import { rankings } from "..";
+import { rankings } from "../..";
 import Image from "next/image";
 import { nextBtn, prevBtn, star } from "@/public/assets/index";
 import { useRef } from "react";
 
 export default function OurTestumonials() {
-//   const swiperRef = useRef(null);
+  //   const swiperRef = useRef(null);
 
-//   const handlePrevClick = () => {
-//     if (swiperRef.current) {
-//       swiperRef.current.slidePrev();
-//     }
-//   };
+  //   const handlePrevClick = () => {
+  //     if (swiperRef.current) {
+  //       swiperRef.current.slidePrev();
+  //     }
+  //   };
 
-//   const handleNextClick = () => {
-//     if (swiperRef.current) {
-//       swiperRef.current.slideNext();
-//     }
-//   };
+  //   const handleNextClick = () => {
+  //     if (swiperRef.current) {
+  //       swiperRef.current.slideNext();
+  //     }
+  //   };
   return (
     <main>
       <section className="flex flex-col my-32 justify-center items-center text-center w-full max-900:my-20">
@@ -46,7 +46,7 @@ export default function OurTestumonials() {
           spaceBetween={30}
           slidesPerView={3}
           className="my-swiper-container"
-        //   onSwiper={(swiper) => (swiperRef.current = swiper)}
+          //   onSwiper={(swiper) => (swiperRef.current = swiper)}
         >
           <div>
             <button>

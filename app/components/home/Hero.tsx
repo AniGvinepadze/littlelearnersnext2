@@ -2,7 +2,7 @@
 
 import { hero } from "@/public/assets/index";
 import Image from "next/image";
-import { info } from "..";
+import { info } from "../..";
 
 export default function Hero() {
   return (
@@ -16,7 +16,7 @@ export default function Hero() {
           className="object-contain "
         />
       </section>
-      <section className="flex-[1] flex p-5 flex-col justify-center max-w-[650px] w-full max-900:text-center max-500:p-0" >
+      <section className="flex-[1] flex p-5 flex-col justify-center max-w-[650px] w-full max-900:text-center max-500:p-0">
         <div>
           <p className="font-medium text-lg py-[6px] max-500:pt-6 ">
             Welcome to Little Learners Academy

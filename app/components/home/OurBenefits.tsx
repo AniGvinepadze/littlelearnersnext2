@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 
-import { benefits } from "..";
+import { benefits } from "../..";
 
 export default function OurBenefits() {
   return (
@@ -12,7 +12,9 @@ export default function OurBenefits() {
             Children Deserve Bright Future
           </button>
         </div>
-        <h2 className="font-bold text-[48px] py-2 max-400:text-[40px]">Our Benefits</h2>
+        <h2 className="font-bold text-[48px] py-2 max-400:text-[40px]">
+          Our Benefits
+        </h2>
         <p className="font-medium text-base flex flex-col">
           With a dedicated team of experienced educators, state-of-the-art
           facilities, and a comprehensive curriculum, we aim to lay{" "}
