@@ -21,6 +21,12 @@ import nextBtn from "../svgs/Button (1).svg"
 import plus from "../svgs/Icon (3).svg"
 import minus from "../svgs/Icon (4).svg"
 import img from "../svgs/Container.svg"
+import mail from "../svgs/Icon (5).svg"
+import phone from "../svgs/Icon (7).svg"
+import location from "../svgs/Icon (6).svg"
+import fb from "../svgs/Button (2).svg"
+import tw from "../svgs/Button (3).svg"
+import inpng  from "../svgs/Button (4).svg"
 export {
   bg,
   bg1,
@@ -44,5 +50,11 @@ export {
   nextBtn,
   plus,
   minus,
-  img
+  img,
+  mail,
+  phone,
+  location,
+  fb,
+  tw,
+  inpng,
 };

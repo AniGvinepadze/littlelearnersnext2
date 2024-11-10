@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="max-w-[1440px] w-full bg-background text-text ">
     
-        <div className="px-3 py-10">
+        <div className="px-8 py-10">
           <Hero />
           <OurBenefits />
           <OurTestumonials />

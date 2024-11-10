@@ -9,6 +9,13 @@ import {
   person1,
   person2,
   person3,
+  img,
+  mail,
+  phone,
+  location,
+  fb,
+  tw,
+  inpng,
 } from "../public/assets/index/index";
 
 export type NavLinks = [
@@ -205,5 +212,113 @@ export const navigates = [
     id: 4,
     title: "Admissions",
     desc: "Learn about our Enrollment Process and how to secure your child's place at Little Learners Academy. Find information about our admission requirements, application deadlines, and available spaces.",
+  },
+];
+
+export const address = [
+  {
+    id: 1,
+    img: mail,
+    title: "hello@littlelearners.com",
+  },
+  {
+    id: 2,
+    img: phone,
+    title: "+91 91813 23 2309",
+  },
+  {
+    id: 3,
+    img: location,
+    title: "Somewhere in the World",
+  },
+];
+export const soccial = [
+  {
+    id: 1,
+    img: fb,
+  },
+  {
+    id: 2,
+    img: tw,
+  },
+  {
+    id: 3,
+    img: inpng,
+  },
+];
+
+export const links1 = [
+  {
+    id: 1,
+    title: "Home",
+  },
+  {
+    id: 2,
+    title: "Features",
+  },
+  {
+    id: 3,
+    title: "Our Testimonials",
+  },
+  {
+    id: 4,
+    title: "Faq",
+  },
+];
+
+export const links2 = [
+  {
+    id: 1,
+    title: "About Us",
+  },
+  {
+    id: 2,
+    title: "Our Mission",
+  },
+  {
+    id: 3,
+    title: "Our Vission",
+  },
+  {
+    id: 4,
+    title: "Awards and Recognitions",
+  },
+  {
+    id: 5,
+    title: "History",
+  },
+  {
+    id: 6,
+    title: "Teachers",
+  },
+];
+
+export const links3 = [
+  {
+    id: 1,
+    title: "Academics",
+  },
+  {
+    id: 2,
+    title: "Special Features",
+  },
+  {
+    id: 3,
+    title: "Gallery",
+  },
+];
+
+export const links4 = [
+  {
+    id: 1,
+    title: "Contact Us",
+  },
+  {
+    id: 2,
+    title: "Information",
+  },
+  {
+    id: 3,
+    title: "Map & Direction",
   },
 ];
