@@ -86,16 +86,16 @@ export default function Footer() {
           ))}
         </div>
         <div className="w-full h-[1px] bg-black my-8" />
-        <div className="flex justify-between max-700:flex-col">
+        <div className="flex justify-between max-700:flex-col max-700:text-center">
           <div className="flex">
             <p>Terms of Service</p>
-            <div className="h-[24px] w-[2px] mx-4 bg-black mt-[1px]" />
+            <div className="h-[24px] w-[2px] mx-4 bg-black mt-[1px] max-450:mx-1" />
             <p>Privacy Policy</p>
-            <div className="h-[24px] w-[2px] mx-4 bg-black mt-[1px]" />
+            <div className="h-[24px] w-[2px] mx-4 bg-black max-450:mx-1 mt-[1px]" />
             <p>Cookie Policy</p>
           </div>
           <div>
-            <div className="flex max-700:mt-7">
+            <div className="flex max-700:mt-7 max-700:justify-center">
               {soccial.map((soc) => (
                 <div key={soc.id} className="flex mx-[4px] mt-[-2px]">
                   <Image src={soc.img} alt="soc" width={40} height={40} />
