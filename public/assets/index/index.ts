@@ -33,6 +33,7 @@ import vision from  "../svgs/Icon (9).svg"
 import award1 from "../svgs/Icon Container.svg"
 import award2 from "../svgs/Icon Container (1).svg"
 import award3 from "../svgs/Icon Container (2).svg"
+import abstract3 from "../svgs/Abstract Design (1).svg"
 export {
   bg,
   bg1,
@@ -68,5 +69,6 @@ export {
   vision,
   award1,
   award2,
-  award3
+  award3,
+  abstract3
 };
