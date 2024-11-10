@@ -13,7 +13,7 @@ export default function OurMission() {
             Mission & Visions
           </button>
         </div>
-        <h2 className="font-bold text-[48px] py-2 max-600:text-[40px] max-400:text-[36px] ">
+        <h2 className="font-bold text-[48px] py-2 max-600:text-[4px] max-400:text-[36px] ">
           Our Mission & Visions
         </h2>
         <p className="font-medium text-base flex flex-col">

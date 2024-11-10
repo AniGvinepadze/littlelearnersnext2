@@ -21,6 +21,12 @@ import {
   award1,
   award2,
   award3,
+  teacher1,
+  teacher2,
+  teacher3,
+  teacher4,
+  teacher5,
+  teacher6,
 } from "../public/assets/index/index";
 
 export type NavLinks = [
@@ -345,7 +351,7 @@ export const missions = [
     id: 2,
     img: vision,
     title: "Vision",
-    desc: "Our vision is to be a beacon of educational excellence, where children are encouraged to explore, discover, and express their unique talents. We aim to foster a generation of lifelong learners equipped with critical thinking, empathy, and a deep appreciation for diversity."
+    desc: "Our vision is to be a beacon of educational excellence, where children are encouraged to explore, discover, and express their unique talents. We aim to foster a generation of lifelong learners equipped with critical thinking, empathy, and a deep appreciation for diversity.",
   },
 ];
 export const awards = [
@@ -366,7 +372,8 @@ export const awards = [
     img: award3,
     title: "Environmental Stewardship Award",
     desc: "Received from the Green Earth Society for our dedication to environmental education, sustainable practices, and fostering a love for nature in our students.",
-  },  {
+  },
+  {
     id: 4,
     img: award1,
     title: "Outstanding Early Childhood Education Awar",
@@ -384,33 +391,76 @@ export const awards = [
     title: "Environmental Stewardship Award",
     desc: "Received from the Green Earth Society for our dedication to environmental education, sustainable practices, and fostering a love for nature in our students.",
   },
-  
-  
 ];
 
 export const history = [
   {
-    id:1,
-    year:"2023",
-    name:"Resilience and Future Horizons",
-    desc:"Adapting to new challenges, we remained committed to our mission of providing an exceptional early education. Looking ahead with optimism, we envision a future filled with boundless possibilities as we continue shaping the leaders and thinkers of tomorrow."
+    id: 1,
+    year: "2023",
+    name: "Resilience and Future Horizons",
+    desc: "Adapting to new challenges, we remained committed to our mission of providing an exceptional early education. Looking ahead with optimism, we envision a future filled with boundless possibilities as we continue shaping the leaders and thinkers of tomorrow.",
   },
   {
-    id:2,
-    year:"2017",
-    name:"Innovation and Technology",
-    desc:"Innovation became the driving force behind our kindergarten's progress from 2016 to 2020. Embracing the latest educational technologies, we crafted engaging and interactive learning experiences for our students."
+    id: 2,
+    year: "2017",
+    name: "Innovation and Technology",
+    desc: "Innovation became the driving force behind our kindergarten's progress from 2016 to 2020. Embracing the latest educational technologies, we crafted engaging and interactive learning experiences for our students.",
   },
   {
-    id:3,
-    year:"2012",
-    name:"Expansion and Recognition",
-    desc:"These years marked as a period of expansion and recognition for our school. As we extended our facilities and enhanced our curriculum, we received accolades for our commitment to quality education and innovative teaching methodologies."
+    id: 3,
+    year: "2012",
+    name: "Expansion and Recognition",
+    desc: "These years marked as a period of expansion and recognition for our school. As we extended our facilities and enhanced our curriculum, we received accolades for our commitment to quality education and innovative teaching methodologies.",
   },
   {
-    id:4,
-    year:"2005",
-    name:"Inception and Growth",
-    desc:"Established in 2005, our kindergarten school began its journey with a vision to provide a nurturing space for young minds to explore, learn, and grow. Over the next five years, we witnessed significant growth."
+    id: 4,
+    year: "2005",
+    name: "Inception and Growth",
+    desc: "Established in 2005, our kindergarten school began its journey with a vision to provide a nurturing space for young minds to explore, learn, and grow. Over the next five years, we witnessed significant growth.",
   },
-]
+];
+
+export const teachers = [
+  {
+    id: 1,
+    img: teacher1,
+    name: "Ms. Sarah Anderson",
+    subject: "Qualification:Bachelor's Degree in Early Childhood Education",
+    info: "Ms. Sarah is a passionate educator with over 10 years of experience in guiding young minds. Her warm and nurturing approach creates a welcoming classroom environment where children feel comfortable to explore and learn.",
+  },
+  {
+    id: 2,
+    img: teacher2,
+    name: "Mr. David Roberts",
+    subject: "Qualification: Master's Degree in Elementary Education",
+    info: "With a strong background in elementary education, Mr. David brings a creative and interactive teaching style to his classroom. His enthusiasm for learning inspires students to ask questions and think critically.",
+  },
+  {
+    id: 3,
+    img: teacher3,
+    name: "Ms. Emily Hernandez",
+    subject: "Qualification: Diploma in Child Psychology",
+    info: "Ms. Emily's expertise in child psychology enables her to understand each child's unique needs and provide individualized support. Her caring nature fosters a strong sense of belonging and confidence in her students.",
+  },
+  {
+    id: 4,
+    img: teacher4,
+    name: "Mr. Michael Turner",
+    subject: "Qualification: Bachelor's Degree in Physical Education",
+    info: "Mr. Michael's passion for physical fitness and sports shines through in his energetic classes. He encourages students to stay active, promoting teamwork and a healthy lifestyle.",
+  },
+  {
+    id: 5,
+    img: teacher5,
+    name: "Ms. Jessica Lee",
+    subject: "Qualification: Master's Degree in Special Education",
+    info: "Ms. Jessica's specialization in special education allows her to create an inclusive and supportive learning environment for all students. She is dedicated to helping every child reach their full potential.",
+  },
+  {
+    id: 6,
+    img: teacher6,
+    name: "Mr. William Parker",
+    subject: "Qualification: Bachelor's Degree in Fine Arts",
+    info: "Mr. William's background in fine arts brings creativity and imagination to his classroom. Through art projects and activities, he nurtures the artistic expression and self-confidence of his students.",
+  },
+];

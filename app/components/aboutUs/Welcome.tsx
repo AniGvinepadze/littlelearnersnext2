@@ -6,7 +6,7 @@ export default function Welcome() {
     <main className="border-l-2 border-t-2 border-r-8 border-b-8 rounded-[10px] border-text bg-white my-10">
       <div>
         <Image src={abstract2} alt="absract" width={137} height={137} />
-        <div className="flex justify-between px-24 pb-16  max-900:flex-col max-900:text-center max-750:px-14 max-600:px-8">
+        <div className="flex justify-between px-24 pb-16  max-900:flex-col max-900:text-center max-750:px-14 max-550:px-10">
           <div className="flex-[1] mt-[-40px]">
             <button className="border-2 border-text py-[6px] px-3 rounded-lg font-medium text-xl ">
               Overview
