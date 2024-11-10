@@ -28,6 +28,8 @@ import fb from "../svgs/Button (2).svg"
 import tw from "../svgs/Button (3).svg"
 import inpng  from "../svgs/Button (4).svg"
 import abstract2 from "../svgs/Abstract Design.svg"
+import mission from "../svgs/Icon (8).svg"
+import vision from  "../svgs/Icon (9).svg"
 export {
   bg,
   bg1,
@@ -58,5 +60,7 @@ export {
   fb,
   tw,
   inpng,
-  abstract2
+  abstract2,
+  mission,
+  vision
 };

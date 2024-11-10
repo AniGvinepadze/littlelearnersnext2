@@ -16,6 +16,8 @@ import {
   fb,
   tw,
   inpng,
+  mission,
+  vision,
 } from "../public/assets/index/index";
 
 export type NavLinks = [
@@ -29,32 +31,32 @@ export const navLinks = [
   {
     id: "home",
     name: "HOME",
-    href:"/"
+    href: "/",
   },
   {
     id: "aboutUs",
     name: "About Us",
-    href:"/about-us"
+    href: "/about-us",
   },
   {
     id: "academics",
     name: "Academics",
-        href:"/academics"
+    href: "/academics",
   },
   {
     id: "admissions",
     name: "Admissions",
-        href:"/admissions"
+    href: "/admissions",
   },
   {
     id: "studentLife",
     name: "Student Life",
-        href:"/student-life"
+    href: "/student-life",
   },
   {
     id: "contact",
     name: "Contact",
-        href:"/contact"
+    href: "/contact",
   },
 ];
 
@@ -326,5 +328,20 @@ export const links4 = [
   {
     id: 3,
     title: "Map & Direction",
+  },
+];
+
+export const missions = [
+  {
+    id: 1,
+    img: mission,
+    title: "Mission",
+    desc: "At Little Learners Academy, our mission is to inspire a passion for learning and empower young minds to become confident, compassionate, and creative individuals. We strive to create a safe and inclusive space where children thrive academically, socially, and emotionally, setting the stage for a successful educational journey.",
+  },
+  {
+    id: 2,
+    img: vision,
+    title: "Vision",
+    desc: "Our vision is to be a beacon of educational excellence, where children are encouraged to explore, discover, and express their unique talents. We aim to foster a generation of lifelong learners equipped with critical thinking, empathy, and a deep appreciation for diversity."
   },
 ];
