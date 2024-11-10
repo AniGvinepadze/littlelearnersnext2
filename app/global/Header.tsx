@@ -10,6 +10,7 @@ import {
 } from "@/public/assets/index";
 import Image from "next/image";
 import { navLinks } from "..";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -82,14 +83,16 @@ export default function Header() {
 
           <div className="flex max-1050:hidden">
             {navLinks.map((link, index) => (
+              <Link   key={link.id} href={link.href}>
               <ul
-                key={link.id}
+              
                 className={` w-[140px] border-text border-x flex justify-center py-4  cursor-pointer ${
                   index === 5 ? "bg-[#FFAE80]" : ""
                 } hover:bg-secondary `}
               >
                 <li className="font-semibold text-base ">{link.name}</li>
               </ul>
+              </Link>
             ))}
           </div>
           <div className="hidden w-[88px] max-1050:flex">

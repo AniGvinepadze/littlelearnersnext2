@@ -29,26 +29,32 @@ export const navLinks = [
   {
     id: "home",
     name: "HOME",
+    href:"/"
   },
   {
     id: "aboutUs",
     name: "About Us",
+    href:"/about-us"
   },
   {
     id: "academics",
     name: "Academics",
+        href:"/academics"
   },
   {
     id: "admissions",
     name: "Admissions",
+        href:"/admissions"
   },
   {
     id: "studentLife",
     name: "Student Life",
+        href:"/student-life"
   },
   {
     id: "contact",
     name: "Contact",
+        href:"/contact"
   },
 ];
 
