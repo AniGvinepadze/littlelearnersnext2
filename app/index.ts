@@ -18,6 +18,9 @@ import {
   inpng,
   mission,
   vision,
+  award1,
+  award2,
+  award3,
 } from "../public/assets/index/index";
 
 export type NavLinks = [
@@ -344,4 +347,43 @@ export const missions = [
     title: "Vision",
     desc: "Our vision is to be a beacon of educational excellence, where children are encouraged to explore, discover, and express their unique talents. We aim to foster a generation of lifelong learners equipped with critical thinking, empathy, and a deep appreciation for diversity."
   },
+];
+export const awards = [
+  {
+    id: 1,
+    img: award1,
+    title: "Outstanding Early Childhood Education Awar",
+    desc: "Presented by the National Association for the Education of Young Children (NAEYC) in recognition of Little Learners Academy's commitment to delivering exceptional early childhood education and fostering a nurturing learning environment.",
+  },
+  {
+    id: 2,
+    img: award2,
+    title: "Innovative STEAM Education Award",
+    desc: "Awarded by the Education Excellence Association for our pioneering efforts in introducing innovative STEAM (Science, Technology, Engineering, Arts, and Mathematics) programs that ignite creativity and critical thinking in young learners.",
+  },
+  {
+    id: 3,
+    img: award3,
+    title: "Environmental Stewardship Award",
+    desc: "Received from the Green Earth Society for our dedication to environmental education, sustainable practices, and fostering a love for nature in our students.",
+  },  {
+    id: 4,
+    img: award1,
+    title: "Outstanding Early Childhood Education Awar",
+    desc: "Presented by the National Association for the Education of Young Children (NAEYC) in recognition of Little Learners Academy's commitment to delivering exceptional early childhood education and fostering a nurturing learning environment.",
+  },
+  {
+    id: 5,
+    img: award2,
+    title: "Innovative STEAM Education Award",
+    desc: "Awarded by the Education Excellence Association for our pioneering efforts in introducing innovative STEAM (Science, Technology, Engineering, Arts, and Mathematics) programs that ignite creativity and critical thinking in young learners.",
+  },
+  {
+    id: 6,
+    img: award3,
+    title: "Environmental Stewardship Award",
+    desc: "Received from the Green Earth Society for our dedication to environmental education, sustainable practices, and fostering a love for nature in our students.",
+  },
+  
+  
 ];

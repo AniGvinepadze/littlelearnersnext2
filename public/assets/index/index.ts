@@ -30,6 +30,9 @@ import inpng  from "../svgs/Button (4).svg"
 import abstract2 from "../svgs/Abstract Design.svg"
 import mission from "../svgs/Icon (8).svg"
 import vision from  "../svgs/Icon (9).svg"
+import award1 from "../svgs/Icon Container.svg"
+import award2 from "../svgs/Icon Container (1).svg"
+import award3 from "../svgs/Icon Container (2).svg"
 export {
   bg,
   bg1,
@@ -62,5 +65,8 @@ export {
   inpng,
   abstract2,
   mission,
-  vision
+  vision,
+  award1,
+  award2,
+  award3
 };
