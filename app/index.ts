@@ -27,6 +27,12 @@ import {
   teacher4,
   teacher5,
   teacher6,
+  book,
+  mobileData,
+  puzzle,
+  brush,
+  sun,
+  star2,
 } from "../public/assets/index/index";
 
 export type NavLinks = [
@@ -462,5 +468,44 @@ export const teachers = [
     name: "Mr. William Parker",
     subject: "Qualification: Bachelor's Degree in Fine Arts",
     info: "Mr. William's background in fine arts brings creativity and imagination to his classroom. Through art projects and activities, he nurtures the artistic expression and self-confidence of his students.",
+  },
+];
+
+export const features = [
+  {
+    id: 1,
+    img: book,
+    title: "Thematic Learning",
+    desc: "Our curriculum is centered around engaging themes that capture children's imaginations. Each theme integrates multiple subjects, making learning enjoyable and relevant.",
+  },
+  {
+    id: 2,
+    img: mobileData,
+    title: "STEAM Education",
+    desc: "We offer innovative STEAM (Science, Technology, Engineering, Arts, and Mathematics) programs that promote hands-on exploration, critical thinking, and problem-solving skills.",
+  },
+  {
+    id: 3,
+    img: puzzle,
+    title: "Language Immersion",
+    desc: "Through language immersion programs, children have the opportunity to learn a second language, enhancing cognitive development and global awareness.",
+  },
+  {
+    id: 4,
+    img: brush,
+    title: "Art and Creativity",
+    desc: "Art is celebrated at Little Learners Academy. Our art-focused activities encourage self-expression, creativity, and the appreciation of various art forms.",
+  },
+  {
+    id: 5,
+    img: sun,
+    title: "Outdoor Education",
+    desc: "Our expansive outdoor learning spaces provide a stimulating environment for children to explore nature, fostering a connection with the environment.",
+  },
+  {
+    id: 6,
+    img: star2,
+    title: "Play-Based Learning",
+    desc: "Play is an integral part of early childhood education. Our play-based approach enhances social skills, emotional development, and imaginative thinking.",
   },
 ];

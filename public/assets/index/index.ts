@@ -40,6 +40,12 @@ import teacher3 from "../svgs/Image (2).svg";
 import teacher4 from "../svgs/Image (5).svg";
 import teacher5 from "../svgs/Image (3).svg";
 import teacher6 from "../svgs/Image (4).svg";
+import book from "../svgs/Icon Container (3).svg";
+import mobileData from "../svgs/Icon Container (4).svg";
+import puzzle from "../svgs/Icon Container (5).svg";
+import brush from "../svgs/Icon Container (6).svg";
+import sun from "../svgs/Icon Container (7).svg";
+import star2 from "../svgs/Icon Container (8).svg";
 export {
   bg,
   bg1,
@@ -83,4 +89,10 @@ export {
   teacher4,
   teacher5,
   teacher6,
+  book,
+  puzzle,
+  star2,
+  sun,
+  brush,
+  mobileData,
 };
