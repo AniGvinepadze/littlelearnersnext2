@@ -52,6 +52,26 @@ import student3 from "../svgs/Image (8).svg";
 import student4 from "../svgs/Image (9).svg";
 import student5 from "../svgs/Image (10).svg";
 import student6 from "../svgs/Image (11).svg";
+import classroom1 from "../svgs/Image (12).svg";
+import classroom2 from "../svgs/Image (13).svg";
+import classroom3 from "../svgs/Image (14).svg";
+import classroom4 from "../svgs/Image (15).svg";
+import library1 from "../svgs/Image (16).svg";
+import library2 from "../svgs/Image (17).svg";
+import library3 from "../svgs/Image (18).svg";
+import library4 from "../svgs/Image (19).svg";
+import science1 from "../svgs/Image (20).svg";
+import science2 from "../svgs/Image (21).svg";
+import science3 from "../svgs/Image (22).svg";
+import science4 from "../svgs/Image (23).svg";
+import computer1 from "../svgs/Image (24).svg";
+import computer2 from "../svgs/Image (25).svg";
+import computer3 from "../svgs/Image (26).svg";
+import computer4 from "../svgs/Image (27).svg";
+import garden1 from "../svgs/Image (28).svg";
+import garden2 from "../svgs/Image (29).svg";
+import garden3 from "../svgs/Image (30).svg";
+import garden4 from "../svgs/Image (31).svg";
 export {
   bg,
   bg1,
@@ -107,4 +127,24 @@ export {
   student4,
   student5,
   student6,
+  classroom1,
+  classroom2,
+  classroom3,
+  classroom4,
+  library1,
+  library2,
+  library3,
+  library4,
+  science1,
+  science2,
+  science3,
+  science4,
+  computer1,
+  computer2,
+  computer3,
+  computer4,
+  garden1,
+  garden2,
+  garden3,
+  garden4,
 };

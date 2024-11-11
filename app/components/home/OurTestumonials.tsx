@@ -9,19 +9,19 @@ import { nextBtn, prevBtn, star } from "@/public/assets/index";
 import { useRef } from "react";
 
 export default function OurTestumonials() {
-  //   const swiperRef = useRef(null);
+  // const swiperRef = useRef(null);
 
-  //   const handlePrevClick = () => {
-  //     if (swiperRef.current) {
-  //       swiperRef.current.slidePrev();
-  //     }
-  //   };
+  // const handlePrevClick = () => {
+  //   if (swiperRef.current) {
+  //     swiperRef.current.slidePrev();
+  //   }
+  // };
 
-  //   const handleNextClick = () => {
-  //     if (swiperRef.current) {
-  //       swiperRef.current.slideNext();
-  //     }
-  //   };
+  // const handleNextClick = () => {
+  //   if (swiperRef.current) {
+  //     swiperRef.current.slideNext();
+  //   }
+  // };
   return (
     <main>
       <section className="flex flex-col my-32 justify-center items-center text-center w-full max-900:my-20">
@@ -47,6 +47,7 @@ export default function OurTestumonials() {
           slidesPerView={3}
           className="my-swiper-container"
           //   onSwiper={(swiper) => (swiperRef.current = swiper)}
+          ref={swiperRef}
         >
           <div>
             <button>
@@ -79,7 +80,7 @@ export default function OurTestumonials() {
                 </div>
               </SwiperSlide>
             ))}
-            <button>
+            <button className="bg-black">
               <Image src={nextBtn} alt="nextBtn" width={58} height={58} />
             </button>
           </div>

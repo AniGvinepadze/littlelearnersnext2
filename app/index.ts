@@ -39,6 +39,26 @@ import {
   student4,
   student6,
   student5,
+  classroom1,
+  classroom2,
+  classroom3,
+  classroom4,
+  library1,
+  library4,
+  library3,
+  library2,
+  science1,
+  science2,
+  science3,
+  science4,
+  computer1,
+  computer2,
+  computer3,
+  computer4,
+  garden1,
+  garden4,
+  garden3,
+  garden2,
 } from "../public/assets/index/index";
 
 export type NavLinks = [
@@ -554,3 +574,79 @@ export const students = [
     desc: "Promoting physical fitness, coordination, and teamwork.",
   },
 ];
+
+export const rooms = [
+  {
+    id: 1,
+    title: "Classroom",
+    desc: "Our well-equipped classrooms are designed to provide a nurturing and stimulating learning environment. Each classroom is thoughtfully arranged to inspire creativity, curiosity, and engagement.",
+    img1:classroom1,
+    img2:classroom2,
+    img3:classroom3,
+    img4:classroom4,
+  },
+  {
+    id: 2,
+    title: "Library",
+    desc: "Our well-equipped classrooms are designed to provide a nurturing and stimulating learning environment. Each classroom is thoughtfully arranged to inspire creativity, curiosity, and engagement.",
+    img1:library1,
+    img2:library2,
+    img3:library3,
+    img4:library4,
+  },
+  {
+    id: 3,
+    title: "Science Lab",
+    desc: "Our hands-on science lab allows students to conduct experiments and explore scientific concepts in a fun and interactive way.",
+    img1:science1,
+    img2:science2,
+    img3:science3,
+    img4:science4,
+  },
+  {
+    id: 4,
+    title: "Computer Lab",
+    desc: "Equipped with age-appropriate technology, the computer lab enhances students' digital literacy and computational skills",
+    img1:computer1,
+    img2:computer2,
+    img3:computer3,
+    img4:computer4,
+  },
+  {
+    id: 5,
+    title: "Garden and Nature Area",
+    desc: "Our garden and nature area offer an opportunity for children to connect with nature and learn about plants and the environment.",
+    img1:garden1,
+    img2:garden2,
+    img3:garden3,
+    img4:garden4,
+  },
+];
+
+export const buttons = [
+  {
+    id:1,
+    title:"All"
+  },
+  {
+    id:2,
+    title:"Classrooms"
+  },
+  {
+    id:3,
+    title:"Library"
+  },
+  {
+    id:4,
+    title:"Science Lab"
+  },
+  {
+    id:5,
+    title:"Computer Lab"
+  },
+  {
+    id:6,
+    title:"Garden and Nature Area"
+  },
+ 
+]
