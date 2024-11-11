@@ -111,11 +111,11 @@ export default function Header() {
           </div>
         </div>
 
-        <div className="justify-end hidden max-1050:flex">
+        <div className="justify-end hidden max-1050:flex ">
           {active && (
             <div className=" grid grid-cols-3 gap-4 items-center bg-white border-2 border-text w-full rounded-xl p-8 max-700:p-5 max-500:grid-cols-2">
               {navLinks.map((link, index) => (
-                <Link key={link.id} href={link.href} >
+                <Link key={link.id} href={link.href}>
                   <ul
                     className={`my-3 rounded p-3 flex justify-center items center border-2 border-text  ${
                       index === 5 ? "bg-[#FFAE80]" : ""

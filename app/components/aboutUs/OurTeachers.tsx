@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function OurTeachers() {
   return (
-    <main>
+    <main className="mb-32">
       <section className="flex flex-col my-32 justify-center items-center text-center w-full max-900:my-20 ">
         <div className="max-w-[248px] w-full">
           <button className="w-full border-2 border-text flex justify-center items-center rounded-[6px] p-1  hover:bg-primary transition ease-in-out">
