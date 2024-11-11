@@ -46,6 +46,12 @@ import puzzle from "../svgs/Icon Container (5).svg";
 import brush from "../svgs/Icon Container (6).svg";
 import sun from "../svgs/Icon Container (7).svg";
 import star2 from "../svgs/Icon Container (8).svg";
+import student1 from "../svgs/Image (6).svg";
+import student2 from "../svgs/Image (7).svg";
+import student3 from "../svgs/Image (8).svg";
+import student4 from "../svgs/Image (9).svg";
+import student5 from "../svgs/Image (10).svg";
+import student6 from "../svgs/Image (11).svg";
 export {
   bg,
   bg1,
@@ -95,4 +101,10 @@ export {
   sun,
   brush,
   mobileData,
+  student1,
+  student2,
+  student3,
+  student4,
+  student5,
+  student6,
 };

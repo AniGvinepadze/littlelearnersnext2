@@ -33,6 +33,12 @@ import {
   brush,
   sun,
   star2,
+  student1,
+  student2,
+  student3,
+  student4,
+  student6,
+  student5,
 } from "../public/assets/index/index";
 
 export type NavLinks = [
@@ -507,5 +513,44 @@ export const features = [
     img: star2,
     title: "Play-Based Learning",
     desc: "Play is an integral part of early childhood education. Our play-based approach enhances social skills, emotional development, and imaginative thinking.",
+  },
+];
+
+export const students = [
+  {
+    id: 1,
+    img: student1,
+    title: "Language Arts",
+    desc: "Reading, writing, storytelling, and communication skills.",
+  },
+  {
+    id: 2,
+    img: student2,
+    title: "Mathematics",
+    desc: "Number sense, basic operations, problem-solving, and logic.",
+  },
+  {
+    id: 3,
+    img: student3,
+    title: "Science",
+    desc: "Exploring the natural world through hands-on experiments and investigations.",
+  },
+  {
+    id: 4,
+    img: student4,
+    title: "Social Studies",
+    desc: "Cultivating an understanding of diverse cultures and communities.",
+  },
+  {
+    id: 5,
+    img: student5,
+    title: "Arts and Crafts",
+    desc: "Encouraging creativity through various art forms and crafts.",
+  },
+  {
+    id: 6,
+    img: student6,
+    title: "Physical Education",
+    desc: "Promoting physical fitness, coordination, and teamwork.",
   },
 ];

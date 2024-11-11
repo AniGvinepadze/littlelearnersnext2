@@ -2,6 +2,7 @@
 
 import Features from "@/app/components/academics/Features";
 import Introduction from "@/app/components/academics/Introduction";
+import Students from "@/app/components/academics/Students";
 
 export default function Academics() {
   return (
@@ -9,6 +10,7 @@ export default function Academics() {
       <div className="px-7">
         <Introduction/>
         <Features/>
+        <Students />
       </div>
     </div>
   );

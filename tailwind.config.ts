@@ -1,6 +1,5 @@
 import type { Config } from "tailwindcss";
 
-
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,7 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-     
+      backgroundImage: {
+        bg: "url('/assets/svgs/Shape (1).svg')",
+      },
       screens: {
         "max-1100": { max: "1100px" },
         "max-1050": { max: "1050px" },
@@ -29,11 +30,11 @@ const config: Config = {
       },
       colors: {
         background: "#FFF5F0",
-        primary:"#FFEFE5",
-        secondary:"#FFDECC",
-        orange:"#FF8D4D",
-        orange80:"#FFBE99",
-        text:"#333333"
+        primary: "#FFEFE5",
+        secondary: "#FFDECC",
+        orange: "#FF8D4D",
+        orange80: "#FFBE99",
+        text: "#333333",
       },
     },
   },
