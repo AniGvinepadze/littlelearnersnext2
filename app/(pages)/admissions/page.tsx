@@ -1,7 +1,14 @@
+"use client"
+
+import Introduction from "@/app/components/adminissions/Introduction"
 
 
 export default function Admission() {
   return (
-    <div>Admission</div>
+    <div>
+      <div className="px-7">
+        <Introduction/>
+      </div>
+    </div>
   )
 }

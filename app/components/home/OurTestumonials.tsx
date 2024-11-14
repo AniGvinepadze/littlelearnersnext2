@@ -47,7 +47,6 @@ export default function OurTestumonials() {
           slidesPerView={3}
           className="my-swiper-container"
           //   onSwiper={(swiper) => (swiperRef.current = swiper)}
-          ref={swiperRef}
         >
           <div>
             <button>
@@ -55,7 +54,7 @@ export default function OurTestumonials() {
             </button>
             {rankings.map((ranking) => (
               <SwiperSlide key={ranking.id}>
-                <div className="border-l-2 border-t-2 border-text border-r-8   border-b-8 p-6 rounded-xl bg-white flex flex-col justify-center items-center text-center ">
+                <div className="border-l-2 border-t-2 border-text border-r-8   border-b-8 p-6 rounded-xl bg-white flex flex-col justify-center items-center text-center min-h-[462px] ">
                   <Image
                     src={ranking.img}
                     alt={ranking.name}
