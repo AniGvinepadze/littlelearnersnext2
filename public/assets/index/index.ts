@@ -77,6 +77,18 @@ import flash from "../svgs/Icon Container (9).svg";
 import music from "../svgs/Icon Container (10).svg";
 import science5 from "../svgs/Icon Container (11).svg";
 import sparkles from "../svgs/Icon Container (12).svg";
+
+import events1 from "../svgs/Image (32).svg"
+
+import events2 from "../svgs/Image (33).svg"
+
+import events3 from "../svgs/Image (34).svg"
+
+import events4 from "../svgs/Image (35).svg"
+
+import events5 from "../svgs/Image (36).svg"
+
+import events6 from "../svgs/Image (37).svg"
 export {
   bg,
   bg1,
@@ -157,4 +169,10 @@ export {
   flash,
   science5,
   sparkles,
+  events1,
+  events2,
+  events3,
+  events4,
+  events5,
+  events6
 };

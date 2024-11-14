@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         bg: "url('/assets/svgs/Shape (1).svg')",
+        bg2: "url('/assets/svgs/Shape (2).svg')",
       },
       screens: {
         "max-1100": { max: "1100px" },

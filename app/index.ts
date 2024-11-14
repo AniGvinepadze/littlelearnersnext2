@@ -64,6 +64,12 @@ import {
   music,
   science5,
   sparkles,
+  events1,
+  events2,
+  events3,
+  events4,
+  events5,
+  events6,
 } from "../public/assets/index/index";
 
 export type NavLinks = [
@@ -804,5 +810,45 @@ export const activities = [
     img: sparkles,
     title: "Cooking and Culinary Arts",
     desc: "Cooking classes introduce students to the joys of preparing and tasting delicious and healthy meals.",
+  },
+];
+
+
+export const events = [
+  {
+    id: 1,
+    img: events1,
+    title: "Annual Sports Day",
+    desc: "A day filled with friendly competition, team spirit, and sportsmanship.",
+  },
+  {
+    id: 2,
+    img: events2,
+    title: "Cultural Festivals",
+    desc: "Celebrations of diverse cultural festivals, promoting cultural exchange and appreciation.",
+  },
+  {
+    id: 3,
+    img: events3,
+    title: "Art Exhibitions",
+    desc: "Showcasing our students' artistic talents through exhibitions and displays.",
+  },
+  {
+    id: 4,
+    img: events4,
+    title: "Science Fair",
+    desc: "A platform for budding scientists to present their innovative projects and experiments.",
+  },
+  {
+    id: 5,
+    img: events5,
+    title: "International Day",
+    desc: "A vibrant celebration of our diverse community, embracing cultures from around the world.",
+  },
+  {
+    id: 6,
+    img: events6,
+    title: "Graduation Ceremony",
+    desc: "A significant milestone as our Kindergarten students prepare to embark on their academic journey.",
   },
 ];
