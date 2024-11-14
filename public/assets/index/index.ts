@@ -72,7 +72,11 @@ import garden1 from "../svgs/Image (28).svg";
 import garden2 from "../svgs/Image (29).svg";
 import garden3 from "../svgs/Image (30).svg";
 import garden4 from "../svgs/Image (31).svg";
-import abstract4 from "../svgs/Container (1).svg"
+import abstract4 from "../svgs/Container (1).svg";
+import flash from "../svgs/Icon Container (9).svg";
+import music from "../svgs/Icon Container (10).svg";
+import science5 from "../svgs/Icon Container (11).svg";
+import sparkles from "../svgs/Icon Container (12).svg";
 export {
   bg,
   bg1,
@@ -148,5 +152,9 @@ export {
   garden2,
   garden3,
   garden4,
-  abstract4
+  abstract4,
+  music,
+  flash,
+  science5,
+  sparkles,
 };

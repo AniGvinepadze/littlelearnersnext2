@@ -60,6 +60,10 @@ import {
   garden3,
   garden2,
   abstract4,
+  flash,
+  music,
+  science5,
+  sparkles,
 } from "../public/assets/index/index";
 
 export type NavLinks = [
@@ -581,192 +585,224 @@ export const rooms = [
     id: 1,
     title: "Classroom",
     desc: "Our well-equipped classrooms are designed to provide a nurturing and stimulating learning environment. Each classroom is thoughtfully arranged to inspire creativity, curiosity, and engagement.",
-    img1:classroom1,
-    img2:classroom2,
-    img3:classroom3,
-    img4:classroom4,
+    img1: classroom1,
+    img2: classroom2,
+    img3: classroom3,
+    img4: classroom4,
   },
   {
     id: 2,
     title: "Library",
     desc: "Our well-equipped classrooms are designed to provide a nurturing and stimulating learning environment. Each classroom is thoughtfully arranged to inspire creativity, curiosity, and engagement.",
-    img1:library1,
-    img2:library2,
-    img3:library3,
-    img4:library4,
+    img1: library1,
+    img2: library2,
+    img3: library3,
+    img4: library4,
   },
   {
     id: 3,
     title: "Science Lab",
     desc: "Our hands-on science lab allows students to conduct experiments and explore scientific concepts in a fun and interactive way.",
-    img1:science1,
-    img2:science2,
-    img3:science3,
-    img4:science4,
+    img1: science1,
+    img2: science2,
+    img3: science3,
+    img4: science4,
   },
   {
     id: 4,
     title: "Computer Lab",
     desc: "Equipped with age-appropriate technology, the computer lab enhances students' digital literacy and computational skills",
-    img1:computer1,
-    img2:computer2,
-    img3:computer3,
-    img4:computer4,
+    img1: computer1,
+    img2: computer2,
+    img3: computer3,
+    img4: computer4,
   },
   {
     id: 5,
     title: "Garden and Nature Area",
     desc: "Our garden and nature area offer an opportunity for children to connect with nature and learn about plants and the environment.",
-    img1:garden1,
-    img2:garden2,
-    img3:garden3,
-    img4:garden4,
+    img1: garden1,
+    img2: garden2,
+    img3: garden3,
+    img4: garden4,
   },
 ];
 
 export const buttons = [
   {
-    id:1,
-    title:"All"
+    id: 1,
+    title: "All",
   },
   {
-    id:2,
-    title:"Classrooms"
+    id: 2,
+    title: "Classrooms",
   },
   {
-    id:3,
-    title:"Library"
+    id: 3,
+    title: "Library",
   },
   {
-    id:4,
-    title:"Science Lab"
+    id: 4,
+    title: "Science Lab",
   },
   {
-    id:5,
-    title:"Computer Lab"
+    id: 5,
+    title: "Computer Lab",
   },
   {
-    id:6,
-    title:"Garden and Nature Area"
+    id: 6,
+    title: "Garden and Nature Area",
   },
- 
-]
-
+];
 
 export const process = [
   {
     id: 1,
-    number:"01",
+    number: "01",
     img: abstract4,
     title: "Inquiry",
     desc: "Submit an inquiry form through our website or contact our admissions office to express your interest in Little Learners Academy.",
   },
   {
     id: 2,
-    number:"02",
+    number: "02",
     img: abstract4,
     title: "School Tour",
     desc: "Schedule a personalized school tour to explore our campus, meet our staff, and gain insights into our nurturing learning environment.",
   },
   {
     id: 3,
-    number:"03",
+    number: "03",
     img: abstract4,
     title: "Application Form",
-    desc:"Complete the application form and provide the required documents, including your child's birth certificate, medical records, and any previous academic records (if applicable)."
+    desc: "Complete the application form and provide the required documents, including your child's birth certificate, medical records, and any previous academic records (if applicable).",
   },
   {
     id: 4,
-    number:"04",
+    number: "04",
     img: abstract4,
     title: "Parent Interview",
-    desc:"We value parent engagement, and a meeting with our admissions team allows us to understand your child's needs and ensure Little Learners Academy aligns with your family's expectations."
+    desc: "We value parent engagement, and a meeting with our admissions team allows us to understand your child's needs and ensure Little Learners Academy aligns with your family's expectations.",
   },
   {
     id: 5,
-    number:"05",
+    number: "05",
     img: abstract4,
     title: "Student Assessment",
     desc: "For certain age groups, a student assessment may be conducted to understand their developmental progress and ensure the best placement.",
   },
   {
     id: 6,
-    number:"06",
+    number: "06",
     img: abstract4,
     title: "Acceptance",
     desc: "Once the admission process is complete, you will receive an official acceptance letter from Little Learners Academy.",
   },
 ];
 
-
 export const fee = [
   {
-    id:1,
-    title:"Program"
+    id: 1,
+    title: "Program",
   },
   {
-    id:2,
-    title:"Age Group"
+    id: 2,
+    title: "Age Group",
   },
   {
-    id:3,
-    title:"Annual Tuition"
+    id: 3,
+    title: "Annual Tuition",
   },
   {
-    id:4,
-    title:"Registration Fee"
+    id: 4,
+    title: "Registration Fee",
   },
   {
-    id:5,
-    title:"Activity Fee"
+    id: 5,
+    title: "Activity Fee",
   },
-
-]
+];
 
 export const feeInfo = [
   {
-    id:1,
-    title:"Nursery",
-    years:"2 - 3 Years",
-    annual:"$1,686",
-    registration:"$162",
-    activity:"$12",
+    id: 1,
+    title: "Nursery",
+    years: "2 - 3 Years",
+    annual: "$1,686",
+    registration: "$162",
+    activity: "$12",
   },
   {
-    id:2,
-    title:"Pre - Kindergartens",
-    years:"3 - 4 Years",
-    annual:"$2,686",
-    registration:"$220",
-    activity:"$16",
+    id: 2,
+    title: "Pre - Kindergartens",
+    years: "3 - 4 Years",
+    annual: "$2,686",
+    registration: "$220",
+    activity: "$16",
   },
   {
-    id:3,
-    title:"Kindergarten",
-    years:"4 - 5 Years",
-    annual:"$3,686",
-    registration:"$340",
-    activity:"$20",
+    id: 3,
+    title: "Kindergarten",
+    years: "4 - 5 Years",
+    annual: "$3,686",
+    registration: "$340",
+    activity: "$20",
   },
-  
-
-]
-
+];
 
 export const services = [
   {
-    id:1,
-    title:"Before and After-School Care",
-    desc:"$120 / per month"
+    id: 1,
+    title: "Before and After-School Care",
+    desc: "$120 / per month",
   },
   {
-    id:2,
-    title:"Language Immersion Program",
-    desc:"$60 / per semester"
+    id: 2,
+    title: "Language Immersion Program",
+    desc: "$60 / per semester",
   },
   {
-    id:3,
-    title:"Transportation (optional)",
-    desc:"$80 / per month"
+    id: 3,
+    title: "Transportation (optional)",
+    desc: "$80 / per month",
   },
-]
+];
+
+export const activities = [
+  {
+    id: 1,
+    img: flash,
+    title: "Sports and Athletics",
+    desc: "Students can participate in various sports, from soccer and basketball to gymnastics and yoga. Sports help promote teamwork, physical fitness, and a sense of discipline.",
+  },
+  {
+    id: 2,
+    img: brush,
+    title: "Art and Creativity",
+    desc: "Our art classes and creative workshops provide a platform for students to express their creativity through painting, drawing, and other artistic forms.",
+  },
+  {
+    id: 3,
+    img: music,
+    title: "Music and Performing Arts",
+    desc: "Students can discover their musical talents through singing, playing musical instruments, and participating in drama and theater performances.",
+  },
+  {
+    id: 4,
+    img: puzzle,
+    title: "Language Clubs",
+    desc: "Language clubs offer an opportunity for students to immerse themselves in different languages and cultures, fostering global awareness.",
+  },
+  {
+    id: 5,
+    img: science5,
+    title: "Science Club",
+    desc: "The science club allows young scientists to explore the wonders of science through fun experiments and hands-on learning.",
+  },
+  {
+    id: 6,
+    img: sparkles,
+    title: "Cooking and Culinary Arts",
+    desc: "Cooking classes introduce students to the joys of preparing and tasting delicious and healthy meals.",
+  },
+];
