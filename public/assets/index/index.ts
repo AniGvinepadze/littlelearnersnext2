@@ -90,6 +90,7 @@ import events5 from "../svgs/Image (36).svg"
 
 import events6 from "../svgs/Image (37).svg"
 import light from "../svgs/Icon Container (13).svg"
+import clock from "../svgs/Icon (10).svg"
 export {
   bg,
   bg1,
@@ -176,5 +177,6 @@ export {
   events4,
   events5,
   events6,
-  light
+  light,
+  clock
 };

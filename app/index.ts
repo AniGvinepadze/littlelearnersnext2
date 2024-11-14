@@ -71,6 +71,7 @@ import {
   events5,
   events6,
   light,
+  clock,
 } from "../public/assets/index/index";
 
 export type NavLinks = [
@@ -874,3 +875,27 @@ export const supports = [
     desc: "We foster a strong partnership with parents to ensure seamless communication and mutual support in a child's development.",
   },
 ]
+
+export const address2 = [
+  {
+    id: 1,
+    img: mail,
+    title: "hello@littlelearners.com",
+  },
+  {
+    id: 2,
+    img: phone,
+    title: "+91 91813 23 2309",
+  },
+  {
+    id: 3,
+    img: location,
+    title: "Somewhere in the World",
+  },
+  {
+    id: 4,
+    img: clock,
+    title: "Office Hours - 9am - 6 pm",
+  },
+
+];
