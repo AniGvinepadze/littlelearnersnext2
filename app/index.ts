@@ -59,6 +59,7 @@ import {
   garden4,
   garden3,
   garden2,
+  abstract4,
 } from "../public/assets/index/index";
 
 export type NavLinks = [
@@ -650,3 +651,49 @@ export const buttons = [
   },
  
 ]
+
+
+export const process = [
+  {
+    id: 1,
+    number:"01",
+    img: abstract4,
+    title: "Inquiry",
+    desc: "Submit an inquiry form through our website or contact our admissions office to express your interest in Little Learners Academy.",
+  },
+  {
+    id: 2,
+    number:"02",
+    img: abstract4,
+    title: "School Tour",
+    desc: "Schedule a personalized school tour to explore our campus, meet our staff, and gain insights into our nurturing learning environment.",
+  },
+  {
+    id: 3,
+    number:"03",
+    img: abstract4,
+    title: "Application Form",
+    desc:"Complete the application form and provide the required documents, including your child's birth certificate, medical records, and any previous academic records (if applicable)."
+  },
+  {
+    id: 4,
+    number:"04",
+    img: abstract4,
+    title: "Parent Interview",
+    desc:"We value parent engagement, and a meeting with our admissions team allows us to understand your child's needs and ensure Little Learners Academy aligns with your family's expectations."
+  },
+  {
+    id: 5,
+    number:"05",
+    img: abstract4,
+    title: "Student Assessment",
+    desc: "For certain age groups, a student assessment may be conducted to understand their developmental progress and ensure the best placement.",
+  },
+  {
+    id: 6,
+    number:"06",
+    img: abstract4,
+    title: "Acceptance",
+    desc: "Once the admission process is complete, you will receive an official acceptance letter from Little Learners Academy.",
+  },
+];

@@ -72,6 +72,7 @@ import garden1 from "../svgs/Image (28).svg";
 import garden2 from "../svgs/Image (29).svg";
 import garden3 from "../svgs/Image (30).svg";
 import garden4 from "../svgs/Image (31).svg";
+import abstract4 from "../svgs/Container (1).svg"
 export {
   bg,
   bg1,
@@ -147,4 +148,5 @@ export {
   garden2,
   garden3,
   garden4,
+  abstract4
 };

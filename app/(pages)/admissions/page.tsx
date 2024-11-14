@@ -1,6 +1,7 @@
 "use client"
 
 import Introduction from "@/app/components/adminissions/Introduction"
+import Procces from "@/app/components/adminissions/Procces"
 
 
 export default function Admission() {
@@ -8,6 +9,7 @@ export default function Admission() {
     <div>
       <div className="px-7">
         <Introduction/>
+        <Procces/>
       </div>
     </div>
   )
