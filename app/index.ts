@@ -697,3 +697,76 @@ export const process = [
     desc: "Once the admission process is complete, you will receive an official acceptance letter from Little Learners Academy.",
   },
 ];
+
+
+export const fee = [
+  {
+    id:1,
+    title:"Program"
+  },
+  {
+    id:2,
+    title:"Age Group"
+  },
+  {
+    id:3,
+    title:"Annual Tuition"
+  },
+  {
+    id:4,
+    title:"Registration Fee"
+  },
+  {
+    id:5,
+    title:"Activity Fee"
+  },
+
+]
+
+export const feeInfo = [
+  {
+    id:1,
+    title:"Nursery",
+    years:"2 - 3 Years",
+    annual:"$1,686",
+    registration:"$162",
+    activity:"$12",
+  },
+  {
+    id:2,
+    title:"Pre - Kindergartens",
+    years:"3 - 4 Years",
+    annual:"$2,686",
+    registration:"$220",
+    activity:"$16",
+  },
+  {
+    id:3,
+    title:"Kindergarten",
+    years:"4 - 5 Years",
+    annual:"$3,686",
+    registration:"$340",
+    activity:"$20",
+  },
+  
+
+]
+
+
+export const services = [
+  {
+    id:1,
+    title:"Before and After-School Care",
+    desc:"$120 / per month"
+  },
+  {
+    id:2,
+    title:"Language Immersion Program",
+    desc:"$60 / per semester"
+  },
+  {
+    id:3,
+    title:"Transportation (optional)",
+    desc:"$80 / per month"
+  },
+]
