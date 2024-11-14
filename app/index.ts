@@ -70,6 +70,7 @@ import {
   events4,
   events5,
   events6,
+  light,
 } from "../public/assets/index/index";
 
 export type NavLinks = [
@@ -852,3 +853,24 @@ export const events = [
     desc: "A significant milestone as our Kindergarten students prepare to embark on their academic journey.",
   },
 ];
+
+export const supports = [
+  {
+    id: 1,
+    img: light,
+    title: "Counseling",
+    desc: "Professional counselors offer guidance and support to students, addressing their emotional and social well-being.",
+  },
+  {
+    id: 2,
+    img: book,
+    title: "Learning Support",
+    desc: "Our educators provide additional assistance to students who may require extra support in their academic journey.",
+  },
+  {
+    id: 3,
+    img: people,
+    title: "Parent-Teacher Collaboration",
+    desc: "We foster a strong partnership with parents to ensure seamless communication and mutual support in a child's development.",
+  },
+]

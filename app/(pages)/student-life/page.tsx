@@ -3,6 +3,7 @@
 import Activities from "@/app/components/studentLife/Activities";
 import EventsCelebrations from "@/app/components/studentLife/EventsCelebrations";
 import Introduction from "@/app/components/studentLife/Introduction";
+import StudentSupport from "@/app/components/studentLife/StudentSupport";
 
 export default function StudentLife() {
   return (
@@ -11,6 +12,7 @@ export default function StudentLife() {
         <Introduction />
         <Activities />
         <EventsCelebrations/>
+        <StudentSupport/>
       </div>
     </div>
   );
