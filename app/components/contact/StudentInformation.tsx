@@ -2,7 +2,7 @@
 
 import { soccial, social } from "@/app";
 import Image from "next/image";
-import { useForm } from "react-hook-form";
+import { useForm ,SubmitHandler} from "react-hook-form";
 
 type FormValues = {
   ParentName: string;
@@ -20,7 +20,7 @@ export default function StudentInformation() {
     formState: { errors },
   } = useForm<FormValues>();
 
-  const onSubmit = (data) => {
+  const onSubmit:SubmitHandler<FormValues> = (data) => {
     console.log(data);
   };
   return (
