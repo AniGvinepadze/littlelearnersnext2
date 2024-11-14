@@ -72,6 +72,9 @@ import {
   events6,
   light,
   clock,
+  fb2,
+  twt2,
+  inpng2,
 } from "../public/assets/index/index";
 
 export type NavLinks = [
@@ -815,7 +818,6 @@ export const activities = [
   },
 ];
 
-
 export const events = [
   {
     id: 1,
@@ -874,7 +876,7 @@ export const supports = [
     title: "Parent-Teacher Collaboration",
     desc: "We foster a strong partnership with parents to ensure seamless communication and mutual support in a child's development.",
   },
-]
+];
 
 export const address2 = [
   {
@@ -897,5 +899,19 @@ export const address2 = [
     img: clock,
     title: "Office Hours - 9am - 6 pm",
   },
+];
 
+export const social = [
+  {
+    id: 1,
+    img: fb2,
+  },
+  {
+    id: 2,
+    img: twt2,
+  },
+  {
+    id: 3,
+    img: inpng2,
+  },
 ];

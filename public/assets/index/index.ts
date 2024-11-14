@@ -91,6 +91,9 @@ import events5 from "../svgs/Image (36).svg"
 import events6 from "../svgs/Image (37).svg"
 import light from "../svgs/Icon Container (13).svg"
 import clock from "../svgs/Icon (10).svg"
+import fb2 from "../svgs/Button (5).svg"
+import twt2 from"../svgs/Button (6).svg"
+import inpng2 from "../svgs/Button (7).svg"
 export {
   bg,
   bg1,
@@ -178,5 +181,8 @@ export {
   events5,
   events6,
   light,
-  clock
+  clock,
+  fb2,
+  inpng2,
+  twt2
 };
