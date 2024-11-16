@@ -1,7 +1,6 @@
 "use client";
 
 import { missions } from "@/app";
-import { mission } from "@/public/assets/index";
 import Image from "next/image";
 
 export default function OurMission() {

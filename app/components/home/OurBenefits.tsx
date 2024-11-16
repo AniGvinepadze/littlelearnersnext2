@@ -18,7 +18,7 @@ export default function OurBenefits() {
         <p className="font-medium text-base flex flex-col">
           With a dedicated team of experienced educators, state-of-the-art
           facilities, and a comprehensive curriculum, we aim to lay{" "}
-          <span>a strong foundation for your child's future.</span>
+          <span>a strong foundation for your child&apos;s future.</span>
         </p>
       </section>
       <section>

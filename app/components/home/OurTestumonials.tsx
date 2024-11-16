@@ -6,7 +6,7 @@ import "swiper/swiper-bundle.css";
 import { rankings } from "../..";
 import Image from "next/image";
 import { nextBtn, prevBtn, star } from "@/public/assets/index";
-import { useRef } from "react";
+// import { useRef } from "react";
 
 export default function OurTestumonials() {
   // const swiperRef = useRef(null);
@@ -64,7 +64,7 @@ export default function OurTestumonials() {
                   <p className="font-bold text-2xl my-2">{ranking.name}</p>
                   <div className="flex  my-2">
                     {Array(5)
-                      .fill()
+                      .fill(5)
                       .map((_, index) => (
                         <Image
                           key={index}

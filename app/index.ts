@@ -1,4 +1,4 @@
-import { title } from "process";
+
 import {
   student,
   crown,
@@ -9,7 +9,7 @@ import {
   person1,
   person2,
   person3,
-  img,
+
   mail,
   phone,
   location,
