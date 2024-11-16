@@ -1,5 +1,4 @@
-import Image from "next/image";
-import Header from "./global/Header";
+
 import Hero from "./components/home/Hero";
 import OurBenefits from "./components/home/OurBenefits";
 import OurTestumonials from "./components/home/OurTestumonials";

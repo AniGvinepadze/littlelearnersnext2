@@ -22,7 +22,7 @@ export default function Footer() {
           </div>
           <div className="grid grid-cols-4 max-550:grid-cols-2">
             <div className="pl-5 max-1100:pl-0">
-              {links1.map((link, index) => (
+              {links1.map((link) => (
                 <Link href="/" key={link.id}>
                   <div className="max-w-[120px] w-full pl-6 max-700:pl-0 ">
                     <p
@@ -37,7 +37,7 @@ export default function Footer() {
               ))}
             </div>
             <div className="pl-5">
-              {links2.map((link, index) => (
+              {links2.map((link) => (
                 <Link href="/about-us" key={link.id}>
                   <div className="max-w-[120px] w-full ">
                     <p
@@ -52,7 +52,7 @@ export default function Footer() {
               ))}
             </div>
             <div className=" pl-6 max-500:my-4 max-550:pl-0">
-              {links3.map((link, index) => (
+              {links3.map((link) => (
                 <Link href="/academics" key={link.id}>
                   <div className="max-w-[130px] w-full ">
                     <p
@@ -67,7 +67,7 @@ export default function Footer() {
               ))}
             </div>
             <div className=" pl-5 max-550:mt-6 ">
-              {links4.map((link, index) => (
+              {links4.map((link) => (
                 <Link href="/contact" key={link.id}>
                   <div key={link.id} className="max-w-[120px] w-full">
                     <p
